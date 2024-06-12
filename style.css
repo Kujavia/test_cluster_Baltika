@@ -1,0 +1,206 @@
+/** {
+  border: 2px red solid;
+}*/
+.navbar-collapse {
+  padding-left: 45vw;
+}
+
+.navbar-brand {
+  padding-left: 10vw;
+}
+
+.container-start {
+  margin-top: 5vh;
+  text-align: center;
+  border-radius: 10px;
+}
+.container-start .col {
+  margin: 3vh 2vw 2vh 2vw;
+}
+.container-start .btn {
+  width: 200px;
+  margin-bottom: 4vh;
+}
+
+.container-block {
+  margin-top: 4vh;
+  margin-bottom: 50px;
+  margin-left: 20vw;
+}
+.container-block .card {
+  height: 100%;
+}
+
+.text-height {
+  height: 95%;
+}
+
+.footer {
+  height: 10vh;
+}
+.footer .nav {
+  padding-top: 5vh;
+} /*# sourceMappingURL=style.css.map */
+
+/* новое начало */
+/** {
+  border: 2px red solid;
+}*/
+
+.navbar-collapse {
+  padding-left: 20vw;
+}
+
+.container-start {
+  margin-top: 5vh;
+}
+.container-start .col {
+  margin: 3vh 2vw 2vh 2vw;
+}
+.container-start .btn {
+  width: 200px;
+  margin-bottom: 4vh;
+}
+
+.container-block {
+  margin-top: 4vh;
+}
+.container-block .card {
+  height: 100%;
+}
+
+.text-height {
+  height: 95%;
+}
+
+.footer {
+  height: 10vh;
+}
+.footer .nav {
+  padding-top: 2vh;
+} /*# sourceMappingURL=style.css.map */
+
+.task {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 10px;
+  color: black;
+}
+.task1 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 10px;
+  color: black;
+}
+.wish p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3vw;
+  text-align: center;
+  color: rgb(29, 27, 28);
+  margin-bottom: 0;
+}
+.h1 {
+  color: rgb(1, 2, 9);
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 20px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.Papa {
+  padding-top: 4%;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4vw;
+}
+
+.tree {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+h3 {
+  text-align: center;
+  padding-top: 1%;
+}
+.navbar-brand:hover {
+  background-color: gold;
+  border-radius: 10px;
+}
+.nav-link:hover {
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+.gal {
+  display: grid;
+  margin: 5%;
+  grid-template-columns: 1fr 1fr;
+}
+.gal1 {
+  width: 80%;
+
+  padding: 3%;
+}
+.Papa:hover {
+  background-color: gold;
+  border-radius: 10px;
+  padding: 30px;
+}
+/* .col:hover {
+  /* background-color: rgb(121, 180, 238);
+  border-radius: 10px;
+  padding: 20px;
+}  */
+.footer .nav {
+  padding-top: 0px;
+}
+
+.dropdown {
+  margin-top: 50px;
+  margin-left: 40vw;
+  margin-bottom: 50px;
+}
+/* .map1 {
+  margin-top: 100px;
+  margin: 10px 20%;
+  margin-bottom: 50px;
+} */
+.mapimage {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.container-block-col {
+  margin-left: 0px;
+}
+.imgslide {
+  width: 70%;
+  margin-left: 5%;
+  border: 2px black solid;
+}
+.imgslide {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.text {
+  color: white;
+}
+
+.col .container-block-col {
+  margin: 0px;
+  padding: 0px;
+}
+.first {
+  border-radius: 10px;
+}
+.dropdown {
+  margin-bottom: 20%;
+}

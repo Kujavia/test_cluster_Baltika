@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      shrink-to-fit="no"
+    />
+    <link
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Sputnik</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#"
+            >Тест Проекта 'Кластеризация'</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="./index.html"
+                  >Главная</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./map.html"
+                  >Карта теста</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="./metod.html"
+                  >Методология</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Контейнер серый A Warm Welcome-->
+    <div class="container container-start">
+      <div class="row bg-info bg-gradient first">
+        <div class="col">
+          <h1 class="h1">Кластеризация и нормирование</h1>
+
+          <p class="task">
+            Задача: разделение магазинов по общим признакам для определения
+            нормы продаж
+          </p>
+          <p class="task">Цель: определение потенциала продаж каждой точки</p>
+          <p class="task1">
+            Важно: на первом этапе пилота, в целях точного 'попадания' магазина
+            в кластер, правильно уточнить входные данные точки (площадь, тип,
+            количество холодильного оборудования)
+          </p>
+          <a class="text" href="./metod.html">Узнать больше</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Контейнер c карточкаим товаров-->
+    <div class="container container-block d-flex justify-content-center">
+      <div class="row">
+        <div class="col container-block-col">
+          <div class="card" style="width: 25rem">
+            <img src="./so.jpg" class="card-img-top" alt="..." />
+            <div class="card-body d-flex flex-column align-items-center">
+              <div class="text-height">
+                <h5 class="card-title text-center">Cluster1</h5>
+                <p class="card-text text-center">Покупка продукции с полки</p>
+              </div>
+              <div class="card-footer">
+                <a href="./productself.html" class="btn btn-primary"
+                  >Продуктовый самообслуживание</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col container-block-col">
+          <div class="card" style="width: 25rem">
+            <img src="./vitrina.jpg" class="card-img-top" alt="..." />
+            <div class="card-body d-flex flex-column align-items-center">
+              <div class="text-height">
+                <h5 class="card-title text-center">Cluster2</h5>
+                <p class="card-text text-center">
+                  Покупка продукции через прилавок
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="./productself.html" class="btn btn-primary"
+                  >Продуктовый через прилавок</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Футер---------------->
+    <footer class="footer bg-dark">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
