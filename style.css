@@ -194,13 +194,18 @@ h3 {
   color: white;
 }
 
-.col .container-block-col {
+/* .col .container-block-col {
   margin: 0px;
   padding: 0px;
-}
+} */
 .first {
   border-radius: 10px;
 }
 .dropdown {
   margin-bottom: 20%;
+}
+
+.cards {
+  margin: 0px;
+  padding: 0px;
 }
